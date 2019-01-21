@@ -30,7 +30,7 @@ for bucket in "${bucket_definitions[@]}"; do
 
     curl -H 'Content-type: application/json' \
         -d "{\"input\": $bucket_data}" \
-        http://localhost:8181/v1/data/forseti/storage/versioning/allow
+        http://localhost:8181/v1/data/cloudstorage/objectversioning/allow
 
     echo
 done
