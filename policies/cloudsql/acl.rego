@@ -1,4 +1,4 @@
-package cloudsql.acls
+package cloudsql.acl
 
 default is_valid=true
 
