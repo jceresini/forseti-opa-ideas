@@ -1,0 +1,60 @@
+{
+  "backendType": "SECOND_GEN",
+  "connectionName": "cleardata-lab-jpc:us-central1:opa-test-sql",
+  "databaseVersion": "MYSQL_5_7",
+  "etag": "6c5fdc8ab120036872878a58fa8c159c84ccd962e453bbc12eaafbf5e5995651",
+  "gceZone": "us-central1-a",
+  "instanceType": "CLOUD_SQL_INSTANCE",
+  "ipAddresses": [
+    {
+      "ipAddress": "35.225.235.162",
+      "type": "PRIMARY"
+    }
+  ],
+  "kind": "sql#instance",
+  "name": "opa-test-sql",
+  "project": "cleardata-lab-jpc",
+  "region": "us-central1",
+  "selfLink": "https://www.googleapis.com/sql/v1beta4/projects/cleardata-lab-jpc/instances/opa-test-sql",
+  "serverCaCert": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIIDITCCAgmgAwIBAgIBADANBgkqhkiG9w0BAQsFADBIMSMwIQYDVQQDExpHb29n\nbGUgQ2xvdWQgU1FMIFNlcnZlciBDQTEUMBIGA1UEChMLR29vZ2xlLCBJbmMxCzAJ\nBgNVBAYTAlVTMB4XDTE5MDEyMjE1MTMwNVoXDTI5MDExOTE1MTQwNVowSDEjMCEG\nA1UEAxMaR29vZ2xlIENsb3VkIFNRTCBTZXJ2ZXIgQ0ExFDASBgNVBAoTC0dvb2ds\nZSwgSW5jMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBAMPdsf5ZdEYIZri2VxTaZlvZszo8sKzMgb5Gb/Xc5JnpumJWP5JSIjFgQbZ8\nlXh6+nYDxXReN2v65w4QOakCzvfsTn9dwQLh9g6ivYzONvCwc6CRhUUdHTDcSh3a\nCUkrhP9WwDlpVc8oS492KkFRsWBXinxcsmwPcCbG+oiIqTl7MRAWs3UM7+HXABDn\npNJZw6I0HmpEW+jo5oe+R7vTbquQXxOF32dy5vts7vkdfmO62CMbtUWMKk6NVr8P\n28aoGPfxSrHwdtDKXvffg6p/QcpIpbcxXT4mkGhXzHbg7ESMRJC7tP+X3ksu1nci\nHVUSVVuNdGnXPLp/PdIwSvgZMlUCAwEAAaMWMBQwEgYDVR0TAQH/BAgwBgEB/wIB\nADANBgkqhkiG9w0BAQsFAAOCAQEACx2MDwnEuvULlel6qNlNXL9ZMJBsoR6OqJVp\nr+DytkR8HI2L5XhHb5E37BkVUIddm6bbQ/aHgzVjnirbXO7Ag6HBXqUS41aNhVjG\nrTf6HpzUfswE3o49QQACxPOTcYYYUDDtxuefkmIQ1wz+iB+Zb+3mqKgiZmBYgOM1\nkImR5hgtLd6sT268J42cPE62l0MczlkcidHYq3TXmCwRcw52uTeIM6Gf0CULVOhL\n36y/aGb/K3pH7LfmhaGtKRhButs79RjYXILf9xx1IGW3tnoE11LaAVne1/EdGj6t\nVyNvckUOZ3O46tcaVtVL+h52Cz5TRzDr0255ZF6faOkyosuZHw==\n-----END CERTIFICATE-----",
+    "certSerialNumber": "0",
+    "commonName": "C=US,O=Google\\, Inc,CN=Google Cloud SQL Server CA",
+    "createTime": "2019-01-22T15:13:05.982Z",
+    "expirationTime": "2029-01-19T15:14:05.982Z",
+    "instance": "opa-test-sql",
+    "kind": "sql#sslCert",
+    "sha1Fingerprint": "8d84ec53e030f933629b136862a7badc332a7fa9"
+  },
+  "serviceAccountEmailAddress": "jesvutk5mnd55kpktqnlf5wj6y@speckle-umbrella-9.iam.gserviceaccount.com",
+  "settings": {
+    "activationPolicy": "ALWAYS",
+    "authorizedGaeApplications": [],
+    "backupConfiguration": {
+      "binaryLogEnabled": false,
+      "enabled": false,
+      "kind": "sql#backupConfiguration",
+      "replicationLogArchivingEnabled": false,
+      "startTime": "11:00"
+    },
+    "dataDiskSizeGb": "10",
+    "dataDiskType": "PD_SSD",
+    "ipConfiguration": {
+      "authorizedNetworks": [],
+      "ipv4Enabled": true
+    },
+    "kind": "sql#settings",
+    "maintenanceWindow": {
+      "day": 0,
+      "hour": 0,
+      "kind": "sql#maintenanceWindow"
+    },
+    "pricingPlan": "PER_USE",
+    "replicationType": "SYNCHRONOUS",
+    "settingsVersion": "1",
+    "storageAutoResize": true,
+    "storageAutoResizeLimit": "0",
+    "tier": "db-n1-standard-1"
+  },
+  "state": "RUNNABLE"
+}

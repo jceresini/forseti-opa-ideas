@@ -1,0 +1,21 @@
+{
+  "etag": "CAM=",
+  "iamConfiguration": {
+    "bucketPolicyOnly": {
+      "enabled": false
+    }
+  },
+  "id": "opa-test-bucket",
+  "kind": "storage#bucket",
+  "location": "US",
+  "metageneration": "3",
+  "name": "opa-test-bucket",
+  "projectNumber": "179590471157",
+  "selfLink": "https://www.googleapis.com/storage/v1/b/opa-test-bucket",
+  "storageClass": "MULTI_REGIONAL",
+  "timeCreated": "2019-01-18T18:25:58.390Z",
+  "updated": "2019-01-18T18:32:29.230Z",
+  "versioning": {
+    "enabled": false
+  }
+}
