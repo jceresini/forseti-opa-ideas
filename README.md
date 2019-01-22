@@ -30,8 +30,17 @@ for bucket in "${bucket_definitions[@]}"; do
 
     curl -H 'Content-type: application/json' \
         -d "{\"input\": $bucket_data}" \
-        http://localhost:8181/v1/data/cloudstorage/objectversioning/allow
+        http://localhost:8181/v1/data/cloudstorage/objectversioning/is_valid
 
     echo
 done
+```
+
+## Enforce
+The policy may also contain an `enforce` endpoint that should return the object adjusted to fit the policy.
+
+```
+    curl -H 'Content-type: application/json' \
+        -d "{\"input\": $BUCKET_NO_VERSIONING}" \
+        http://localhost:8181/v1/data/cloudstorage/objectversioning/enforce
 ```
